@@ -1,0 +1,40 @@
+element.style {
+
+}
+
+body {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #FFD700;
+}
+
+
+img:hover { 
+    transform: scale(1.4);
+    
+}
+
+.rock {
+    width: 249px;
+}
+
+.paper {
+    width: 280px;
+}
+.scissors {
+    width: 261px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    min-height: 400px;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
